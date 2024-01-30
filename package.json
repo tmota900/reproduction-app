@@ -3,7 +3,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "create:page": "mkdir -p app/page && cp -R app/*.* app/page",
+    "delete:page": "rm -rf app/page"
   },
   "dependencies": {
     "next": "canary",
